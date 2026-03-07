@@ -133,6 +133,83 @@ A                                      TEXT('NUMERO DE QUINCENAS')
 A                                      COLHDG('NUMERO' 'QUINCENAS')
 A                                      ALIAS(NUMQUIN)
 A                                      COMP(LE 360)
+
+A            CODPROD        8S 0
+A                                      TEXT('CODIGO DEL PRODUCTO')
+A                                      COLHDG('CODIGO' 'PRODUCTO')
+A                                      ALIAS(CODPROD)
+
+A            CORREO        25A
+A                                      TEXT('CORREO ELECTRONICO')
+A                                      COLHDG('CORREO' 'ELECTRONICO')
+A                                      ALIAS(CORREO)
+
+A            DIRECC        40A
+A                                      TEXT('DIRECCION')
+A                                      COLHDG('DIRECCION')
+A                                      ALIAS(DIRECC)
+
+A            EDAD           3S 0
+A                                      TEXT('EDAD')
+A                                      COLHDG('EDAD')
+A                                      ALIAS(EDAD)
+A                                      COMP(GT 18)
+
+A            ESTCIV         1A
+A                                      TEXT('ESTADO CIVIL')
+A                                      COLHDG('ESTADO' 'CIVIL')
+A                                      ALIAS(ESTCIV)
+A                                      VALUES('C' 'S' 'V' 'U')
+
+A            INTERES        2S 0
+A                                      TEXT('INTERES')
+A                                      COLHDG('INTERES')
+A                                      ALIAS(INTERES)
+A                                      COMP(LE 19)
+
+A            ESTATURA       3S 2
+A                                      TEXT('ESTATURA')
+A                                      COLHDG('ESTATURA')
+A                                      ALIAS(ESTATURA)
+A                                      COMP(LT 1.90)
+
+A            ESTRSOC        1S 0
+A                                      TEXT('ESTRATO SOCIAL')
+A                                      COLHDG('ESTRATO' 'SOCIAL')
+A                                      ALIAS(ESTRSOC)
+A                                      VALUES(1 2 3 4 5 6)
+
+A            NOMPER        40A
+A                                      TEXT('NOMBRE DE LA PERSONA')
+A                                      COLHDG('NOMBRE' 'PERSONA')
+A                                      ALIAS(NOMPER)
+
+A            NOMCARR       40A
+A                                      TEXT('NOMBRE DE LA CARRERA')
+A                                      COLHDG('NOMBRE' 'CARRERA')
+A                                      ALIAS(NOMCARR)
+
+A            NOMPROV       40A
+A                                      TEXT('NOMBRE DEL PROVEEDOR')
+A                                      COLHDG('NOMBRE' 'PROVEEDOR')
+A                                      ALIAS(NOMPROV)
+
+A            TELEFONO      20A
+A                                      TEXT('TELEFONO')
+A                                      COLHDG('TELEFONO')
+A                                      ALIAS(TELEFONO)
+
+A            SEXO           1A
+A                                      TEXT('SEXO')
+A                                      COLHDG('SEXO')
+A                                      ALIAS(SEXO)
+A                                      VALUES('M' 'F')
+
+A            VALPRES        9S 2
+A                                      TEXT('VALOR PRESTAMO')
+A                                      COLHDG('VALOR' 'PRESTAMO')
+A                                      ALIAS(VALPRES)
+A                                      COMP(LE 500000000)
 ```
 
 ---
