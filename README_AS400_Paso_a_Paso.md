@@ -112,100 +112,100 @@ Hasta el momento se empezó a montar el archivo de referencia con esta estructur
 
 ```txt
 A          R REFER
-A            CODPRES        2S 0
+A            CODPRS         2S 0
 A                                      TEXT('CODIGO PRESTAMO')
 A                                      COLHDG('CODIGO' 'PRESTAMO')
 A                                      ALIAS(CODPREST)
 A                                      VALUES(10 11 12 14 15 16 30)
 
-A            NOMPRES       40A
+A            NOMPRS        40A
 A                                      TEXT('NOMBRE PRESTAMO')
 A                                      COLHDG('NOMBRE' 'PRESTAMO')
 A                                      ALIAS(NOMPREST)
 
-A            CEDULA        14S 0
+A            CEDPER        14S 0
 A                                      TEXT('CEDULA')
-A                                      COLHDG('CEDULA')
+A                                      COLHDG('CEDULA' 'PERSONA')
 A                                      ALIAS(CEDULA)
 
-A            NUMQUIN        3S 0
+A            NQUINC         3S 0
 A                                      TEXT('NUMERO DE QUINCENAS')
 A                                      COLHDG('NUMERO' 'QUINCENAS')
 A                                      ALIAS(NUMQUIN)
 A                                      COMP(LE 360)
 
-A            CODPROD        8S 0
+A            CODPRD         8S 0
 A                                      TEXT('CODIGO DEL PRODUCTO')
 A                                      COLHDG('CODIGO' 'PRODUCTO')
 A                                      ALIAS(CODPROD)
 
-A            CORREO        25A
+A            CORELE        25A
 A                                      TEXT('CORREO ELECTRONICO')
 A                                      COLHDG('CORREO' 'ELECTRONICO')
 A                                      ALIAS(CORREO)
 
-A            DIRECC        40A
+A            DIRPER        40A
 A                                      TEXT('DIRECCION')
-A                                      COLHDG('DIRECCION')
-A                                      ALIAS(DIRECC)
+A                                      COLHDG('DIRECCION' 'PERSONA')
+A                                      ALIAS(DIRECCION)
 
-A            EDAD           3S 0
+A            EDAPER         3S 0
 A                                      TEXT('EDAD')
-A                                      COLHDG('EDAD')
+A                                      COLHDG('EDAD' 'PERSONA')
 A                                      ALIAS(EDAD)
 A                                      COMP(GT 18)
 
-A            ESTCIV         1A
+A            ECIVIL         1A
 A                                      TEXT('ESTADO CIVIL')
 A                                      COLHDG('ESTADO' 'CIVIL')
 A                                      ALIAS(ESTCIV)
 A                                      VALUES('C' 'S' 'V' 'U')
 
-A            INTERES        2S 0
+A            INTANU         2S 0
 A                                      TEXT('INTERES')
-A                                      COLHDG('INTERES')
+A                                      COLHDG('TASA' 'INTERES')
 A                                      ALIAS(INTERES)
 A                                      COMP(LE 19)
 
-A            ESTATURA       3S 2
+A            ESTPER         3S 2
 A                                      TEXT('ESTATURA')
-A                                      COLHDG('ESTATURA')
+A                                      COLHDG('ESTATURA' 'PERSONA')
 A                                      ALIAS(ESTATURA)
 A                                      COMP(LT 1.90)
 
-A            ESTRSOC        1S 0
+A            ESTRAT         1S 0
 A                                      TEXT('ESTRATO SOCIAL')
 A                                      COLHDG('ESTRATO' 'SOCIAL')
 A                                      ALIAS(ESTRSOC)
 A                                      VALUES(1 2 3 4 5 6)
 
-A            NOMPER        40A
+A            NOMALU        40A
 A                                      TEXT('NOMBRE DE LA PERSONA')
 A                                      COLHDG('NOMBRE' 'PERSONA')
 A                                      ALIAS(NOMPER)
 
-A            NOMCARR       40A
+A            NCARRR        40A
 A                                      TEXT('NOMBRE DE LA CARRERA')
 A                                      COLHDG('NOMBRE' 'CARRERA')
 A                                      ALIAS(NOMCARR)
 
-A            NOMPROV       40A
+A            NPROVE        40A
 A                                      TEXT('NOMBRE DEL PROVEEDOR')
 A                                      COLHDG('NOMBRE' 'PROVEEDOR')
 A                                      ALIAS(NOMPROV)
 
-A            TELEFONO      20A
+A            TELCON        20A
 A                                      TEXT('TELEFONO')
-A                                      COLHDG('TELEFONO')
+A                                      COLHDG('NUMERO' 'TELEFONO')
 A                                      ALIAS(TELEFONO)
 
-A            SEXO           1A
+A            SEXPER         1A
 A                                      TEXT('SEXO')
-A                                      COLHDG('SEXO')
+A                                      COLHDG('SEXO' 'PERSONA')
 A                                      ALIAS(SEXO)
 A                                      VALUES('M' 'F')
 
-A            VALPRES        9S 2
+A            VLPRES         11S 2
 A                                      TEXT('VALOR PRESTAMO')
 A                                      COLHDG('VALOR' 'PRESTAMO')
 A                                      ALIAS(VALPRES)
